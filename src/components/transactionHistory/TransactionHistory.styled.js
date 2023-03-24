@@ -33,7 +33,7 @@ export const Tbody = styled.tbody`
 export const Tr = styled.tr`
     
 
-    &:nth-child(even) {
+    &:nth-of-type(even) {
         background-color: lightgrey;
     }
 `;
