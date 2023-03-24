@@ -2,6 +2,8 @@
     width: 350px;
     text-align: center;
     background-color: white;
+
+    border-radius: 4px;
 }
 
 .title{
@@ -14,6 +16,7 @@
     padding: 0;
     display: flex;
     list-style: none;
+
     background-color: rgb(242, 242, 242);
 }
 .item{

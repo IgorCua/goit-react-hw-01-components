@@ -12,9 +12,6 @@ export const Profile = (props) => {
               stats: {followers, views, likes}
           } = props;
     
-    console.log('profile props: ', username, tag, location, avatar)
-    console.log('profile stats: ', followers, views, likes)
-
     return(
         <div className={style.profile}> 
             <div className={style.description}>
@@ -42,18 +39,10 @@ export const Profile = (props) => {
     );
 }
 
-// ReactDOM.createRoot(document.getElementById('root')).render(<Profile
-//     username={user.username}
-//     tag={user.tag}
-//     location={user.location}
-//     avatar={user.avatar}
-//     stat={user.stat}
-// />);
-
-// Profile.propTypes = {
-//     username: PropTypes.string,
-//     tag: PropTypes.string,
-//     location: PropTypes.string,
-//     avatar: PropTypes.string,
-//     stats: PropTypes.number
-//   }
+Profile.propTypes = {
+    username: PropTypes.string,
+    tag: PropTypes.string,
+    location: PropTypes.string,
+    avatar: PropTypes.string,
+    stats: PropTypes.object.isRequired
+}
