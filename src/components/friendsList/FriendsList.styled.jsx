@@ -1,9 +1,7 @@
 import styled from "@emotion/styled";
-import friends from "./friends.json";
 
 export const List = styled.ul`
     padding: 0;
-    width: 350px;  
     display: flex;
     flex-direction: column;
 `;

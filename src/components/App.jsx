@@ -1,11 +1,11 @@
-import ReactDOM from "react-dom/client";
-import PropTypes from "prop-types";
 import user from "./profile/user.json";
 import data from "./statistics/data.json";
 import friends from "./friendsList/friends.json";
-import {Profile} from "./profile/Profile";
-import {Statistics} from "./statistics/Statistics";
+import transactions from "./transactionHistory/transactions.json";
+import { Profile } from "./profile/Profile";
+import { Statistics } from "./statistics/Statistics";
 import { FriendsList } from "./friendsList/FriendsList.jsx";
+import { TransactionHistory } from "./transactionHistory/TransactionHistory";
 
 export const App = () => {
   return (
@@ -39,6 +39,9 @@ export const App = () => {
         data={friends}
       />
 
+      <TransactionHistory 
+        items={transactions}
+      />
     </div>
   );
 };

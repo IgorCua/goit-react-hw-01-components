@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import styled from "@emotion/styled";
 import { List, Item, Span, Image, Text} from "./FriendsList.styled";
 // import friends from "./friends.json";
 
