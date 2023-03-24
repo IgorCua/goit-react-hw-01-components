@@ -1,7 +1,4 @@
-import ReactDOM from "react-dom/client";
 import PropTypes from "prop-types";
-import user from "./user.json";
-import {App} from "../App";
 import style from "./Profile.module.css"
 
 export const Profile = (props) => {
